@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+.text{
+    position: absolute;
+    top:0.51%;
+    font-family: "Inter";
+    font-size: 175px;
+    z-index: 0;
+    text-align: center;
+    left: 14%;
+    color: silver;
+}
+canvas{
+    position: absolute;
+    z-index: 1;
+    cursor:grab;
+}
+.subhead{
+
+    font-family: "Lora";
+    position:absolute;
+    z-index: 1;
+    color:rgb(180, 180, 180);
+    top:105%;
+    font-size: 23px;
+    left:2%;
+}
+.subhead1{
+    font-family: "Lora";
+    position:absolute;
+    top:180%;
+    font-size: 23px;
+    left:64%;
+}
+.subhead2{
+    font-family: "Lora";
+    position: absolute;
+    top: 250%;
+    font-size: 23px;
+    left:2%
+}
+.li{
+    color: black;
+    position:absolute;
+    left:14%;
+
+}
+.sub1{
+    position:absolute;
+    left:6%;
+}
+.sub0{
+    position: relative;
+    left: 5%;
+
+}
+.tet{
+    text-transform: none;
+}

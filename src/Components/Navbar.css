@@ -1,0 +1,27 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #000 0%,#525151 50%, #fff 110%,#525151 250%);
+  background-attachment: fixed;
+  text-transform: capitalize;
+}
+img{
+    border-radius: 50%;
+    width: 50px;
+    opacity: 0.5;
+}
+li,a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: silver;
+    font-size: x-large;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.logo{
+  margin-right: auto;
+}
