@@ -1,6 +1,6 @@
 import {Suspense} from "react";
 import {useEffect,useRef} from "react";
-import * as THREE from "three";
+import { Group } from "three";
 import "./Hero.css";
 import {useFrame} from '@react-three/fiber';
 import {Canvas} from "@react-three/fiber";
@@ -9,7 +9,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 function Model() {
-  const ref = useRef(null);
+  const ref = useRef<Group | null>(null);
   const scroll = useRef(0);
   const { scene } = useGLTF("/scenes.gltf");
   
